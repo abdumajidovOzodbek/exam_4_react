@@ -1,0 +1,76 @@
+.kor{
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 245px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.kor:visited{
+color: white;
+}
+.pusta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pusta img{
+    width: 400px;
+}
+.fav2{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+width: 83%;
+margin: 0 auto;
+}
+.fav img {
+width: 130px;
+height: 200px;
+}
+.fav{
+    width: 30%;
+    border: 1px solid;
+    border-radius: 15px ;
+    background-color: white;
+    border-color: transparent;
+    margin-bottom: 15px;
+    text-align: center;
+}
+@media screen and (max-width:375px) {
+    .pusta img{
+        width: 200px;
+    }
+}
+@media screen and (max-width:375px) {
+    .fav2{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 83%;
+        margin: 0 auto;
+        }
+        .fav img {
+        width: 130px;
+        height: 200px;
+        }
+        .fav{
+            width: 80%;
+            margin-top: 20px;
+            border: 1px solid;
+            border-radius: 15px ;
+            background-color: white;
+            border-color: transparent;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+}

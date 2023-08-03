@@ -1,0 +1,15 @@
+.term{
+    width: 83%;
+    margin:  0 auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+}
+.term p{
+    width: 90%;
+    margin:  0 auto;
+    margin-top: 20px;
+}
+.term h2{
+    margin-left: 30px;
+}

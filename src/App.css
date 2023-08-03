@@ -1,0 +1,7 @@
+body{
+    background: rgba(234, 234, 234, 1);
+    padding-top: 30px;
+}
+.App{
+    position: relative;
+}

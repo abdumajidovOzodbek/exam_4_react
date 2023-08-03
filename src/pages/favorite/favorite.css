@@ -1,0 +1,137 @@
+.main {
+  background-color: white;
+  border: 1px solid;
+  height: 200px;
+  border-radius: 15px;
+  border-color: transparent;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 80%;
+  position: relative;
+}
+.krt:visited{
+color: white;
+}
+.remove {
+  position: absolute;
+  right: 0;
+  margin-right: 5px;
+  margin-top: 5px;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 17px;
+  cursor: pointer;
+}
+.remove2 {
+  position: absolute;
+  right: 0;
+   margin-right: 25px;
+  margin-top: 8px;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 17px; 
+}
+.imagecrud{
+  width: 100px;
+}
+.main div:nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  align-items: center;
+  height: 60%;
+  margin-top: 20px;
+}
+.main div:nth-child(2) img {
+  width: 70px;
+  height: 100px;
+}
+.main div:nth-child(2) div {
+  display: flex;
+  flex-direction: column;
+}
+.under_cart {
+  display: flex;
+  justify-content: space-around;
+}
+.under_cart div {
+  display: flex;
+  align-items: center;
+}
+.under_cart div button {
+  border-radius: 50%;
+  background: rgba(255, 165, 66, 1);
+  border-color: transparent;
+  color: white;
+  width: 30px;
+  font-size: 20px;
+}
+.all1 {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.cloud{
+    width: 83%;
+    margin: 0 auto;
+}
+.all {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  width: 30%;
+  height: 100px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  border-color: transparent;
+  padding-top: 10px;
+
+}
+.all div {
+  display: flex;
+  justify-content: space-around;
+}
+.krt {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+height: 60px;
+margin-top: 10px;
+  width: 100%;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+}
+.all1 div:nth-child(1) {
+  width: 80%;
+}
+@media screen and (max-width:768px) {
+    .cloud{
+        width: 758px;
+        
+    }
+}
+@media screen and (max-width:375px) {
+    .cloud{
+        width: 375px;
+    }
+    .main{
+        width: 96%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        /* background-color: aqua; */
+    }
+    .all1{
+        flex-direction: column;
+    }
+    .all{
+        width: 100%;
+    }
+}
